@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name          = "OpenCombineDispatch"
+  spec.name          = "YOpenCombineDispatch"
   spec.version       = "0.14.0"
   spec.summary       = "OpenCombine + Dispatch interoperability"
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license       = "MIT"
 
   spec.authors       = { "Sergej Jaskiewicz" => "jaskiewiczs@icloud.com" }
-  spec.source        = { :git => "https://github.com/OpenCombine/OpenCombine.git", :tag => "#{spec.version}" }
+  spec.source        = { :git => "https://git.yy.com/midwares/hdzb/OpenCombine.git", :tag => "#{spec.version}" }
 
   spec.swift_version = "5.0"
 

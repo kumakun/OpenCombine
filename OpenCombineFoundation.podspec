@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name          = "OpenCombineFoundation"
+    spec.name          = "YOpenCombineFoundation"
     spec.version       = "0.14.0"
     spec.summary       = "OpenCombine + OpenCombineFoundation interoperability"
   
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
     spec.license       = "MIT"
   
     spec.authors       = { "Sergej Jaskiewicz" => "jaskiewiczs@icloud.com" }
-    spec.source        = { :git => "https://github.com/OpenCombine/OpenCombine.git", :tag => "#{spec.version}" }
+    spec.source        = { :git => "https://git.yy.com/midwares/hdzb/OpenCombine.git", :tag => "#{spec.version}" }
   
     spec.swift_version = "5.0"
   
@@ -21,5 +21,5 @@ Pod::Spec.new do |spec|
     spec.tvos.deployment_target    = "9.0"
   
     spec.source_files = "Sources/OpenCombineFoundation/**/*.swift"
-    spec.dependency     "OpenCombine", '>= 0.13.0'
+    spec.dependency     "YOpenCombine", '>= 0.13.0'
   end

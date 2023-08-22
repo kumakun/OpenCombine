@@ -21,5 +21,5 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target    = "9.0"
 
   spec.source_files = "Sources/OpenCombineDispatch/**/*.swift"
-  spec.dependency     "OpenCombine", '>= 0.13.0'
+  spec.dependency     "YOpenCombine", '>= 0.13.0'
 end

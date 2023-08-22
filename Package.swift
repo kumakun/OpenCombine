@@ -38,7 +38,8 @@ let package = Package(
                 "Concurrency/Publisher+Concurrency.swift.gyb",
                 "Publishers/Publishers.Encode.swift.gyb",
                 "Publishers/Publishers.MapKeyPath.swift.gyb",
-                "Publishers/Publishers.Catch.swift.gyb"
+                "Publishers/Publishers.Catch.swift.gyb",
+                "Publishers/Publishers.CombineLatest.swift.gyb"
             ],
             swiftSettings: [.define("WASI", .when(platforms: [.wasi]))]
         ),
